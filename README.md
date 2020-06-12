@@ -1,4 +1,4 @@
-# netl
+# netl [![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/f9a/netl)
 
 netl helps to create net.listener. Possible configurations
 
@@ -7,4 +7,4 @@ netl helps to create net.listener. Possible configurations
 - tls (opinated, secure configuration)
 - systemd socket-activation.
 
-For examples see example_test.go or listener_test.go.
+For usage see [examples](https://github.com/f9a/netl/blob/master/example_test.go) or [listener_test.go](https://github.com/f9a/netl/blob/master/listener_test.go).
