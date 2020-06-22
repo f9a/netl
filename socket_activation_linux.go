@@ -39,5 +39,5 @@ func receiveSocketFromSystemd(socketName string) (listener net.Listener, err err
 		return
 	}
 
-	return listeners[0]
+	return listeners[0], nil
 }
